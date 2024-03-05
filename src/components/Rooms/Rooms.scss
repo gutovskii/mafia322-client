@@ -1,0 +1,24 @@
+.room {
+  &-stats {
+    margin-right: 10px;
+  }
+
+  &-pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.rooms {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &-list {
+    min-width: 300px;
+  }
+
+  &-create {
+    margin: 25px auto 0;
+  }
+}

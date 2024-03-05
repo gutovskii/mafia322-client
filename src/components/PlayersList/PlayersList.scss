@@ -1,0 +1,16 @@
+.players-list {
+  max-height: 300px;
+  width: 250px;
+  overflow-y: scroll;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 7px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  margin-bottom: 15px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
